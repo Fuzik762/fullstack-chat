@@ -1,13 +1,18 @@
 # fullstack-chat
-Stack:
-  Back:
-    - Nestjs
-    - Sequelize ORM
-    - PostgreSQL
-    - Graphql
-    - Typescript
-  Front: 
-    - VueJs 3 Composition API
-    - Typesrcript
-    - Villus
+
+  <h4>Back:</h4>
+  <ul>
+    <li> Nestjs
+    <li> Sequelize ORM
+    <li> PostgreSQL
+    <li> Graphql
+    <li> Typescript
+   </ul>
+ 
+  <h4> Front:</h4>
+   <ul>
+    <li> VueJs 3 Composition API
+    <li> Typesrcript
+    <li> Villus
+  </ul>
     
