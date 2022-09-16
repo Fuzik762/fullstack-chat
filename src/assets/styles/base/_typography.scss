@@ -1,0 +1,24 @@
+@use '../utils/variables' as v;
+
+.title {
+  font-size: 36px;
+  font-family: v.$secondary-font;
+  line-height: 48px;
+}
+
+.subtitle {
+  color: v.$color-text-gray;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: v.$main-font;
+  line-height: 23px;
+}
+
+.caption {
+  color: v.$color-destructive;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: v.$main-font;
+  line-height: 16px;
+  text-align: left;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'PT Sans';
+  font-style: normal;
+  src: url('@/assets/fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Inter;
+  font-style: normal;
+  src: url('@/assets/fonts/Inter/Inter-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'PT Sans';
+  font-style: normal;
+  src: url('@/assets/fonts/PT_Sans/PTSans-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'PT Serif';
+  font-style: normal;
+  src: url('@/assets/fonts/PT_Serif/PTSerif-Bold.ttf') format('truetype');
+  font-display: swap;
+}

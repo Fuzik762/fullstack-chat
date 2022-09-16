@@ -1,0 +1,11 @@
+@use '../utils/variables' as v;
+
+html {
+  color: v.$color-text;
+  // font: 30px PTSans, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Serif', sans-serif;
+  background-color: v.$color-background;
+}

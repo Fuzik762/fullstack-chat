@@ -1,0 +1,54 @@
+@use '../utils/variables' as v;
+@use '../utils/mixins' as m;
+@use '../utils/placeholders';
+
+.orange-background {
+  background-color: v.$color-status-orange;
+}
+
+.yellow-background {
+  background-color: v.$color-status-yellow;
+}
+
+.green-background {
+  background-color: v.$color-status-green;
+}
+
+.red-background {
+  background-color: v.$color-status-red;
+}
+
+.dark-red-background {
+  background-color: v.$color-status-dark-red;
+}
+
+.black-background {
+  background-color: #000;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.document-table-input {
+  width: 100%;
+  color: v.$color-text-gray;
+  font-size: 11px;
+  font-family: v.$inter-font;
+  line-height: 52px;
+  border: none;
+  outline: none;
+
+  &:disabled {
+    color: v.$color-light-gray;
+    background-color: v.$color-background-white;
+  }
+}

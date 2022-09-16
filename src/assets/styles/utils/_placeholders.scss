@@ -1,0 +1,26 @@
+@use '../utils/variables' as v;
+
+// Example
+
+// %element-basis {
+//   padding: v.$padding-basis;
+//   background-color: #fff;
+//   border: v.$border-basis;
+//   border-radius: v.$border-radius-basis;
+//   box-shadow: v.$shadow-basis;
+// }
+
+%page-wrapper {
+  width: 100%;
+  max-width: 1168px;
+  margin: 0 auto;
+  background: v.$color-background-white;
+  border-radius: 4px;
+  box-shadow: 0 0 53px rgb(0 0 0 / 25%);
+}
+
+%link-table-button {
+  color: v.$color-main;
+  font-weight: 700;
+  cursor: pointer;
+}
